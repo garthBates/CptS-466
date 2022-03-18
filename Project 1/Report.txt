@@ -1,0 +1,7 @@
+Garth Bates
+11473063
+9/10/21
+Project 1 Report
+
+	This project was to program the board switched to change LED colors under certain conditions. If switch 1 was pressed then the LED turned red. If switch 2 was pressed then the LED was blue. If both were pressed the LED was pink. If switch 1 was pressed while the LED was pink it would turn green. 
+	I did not have interrupt code in place for when the LED was red, so if switch 2 is pressed nothing happens. If switch 2 was pressed the user have .1 seconds to pressed switch 1 to make the LED pink, otherwise it would perform the blue operation. When the LED was pink, if the user pressed switch 1 again, the LED would turn to green.
